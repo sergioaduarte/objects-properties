@@ -1,0 +1,72 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE tiles-definitions PUBLIC
+       "-//Apache Software Foundation//DTD Tiles Configuration 3.0//EN"
+       "http://tiles.apache.org/dtds/tiles-config_3_0.dtd">
+
+<tiles-definitions>
+	<definition name="base" template="/WEB-INF/templates/default.jsp">
+		<put-attribute name="title" value="Objects Properties" />
+		<put-attribute name="header" value="/WEB-INF/tiles/header.jsp" />
+		<put-attribute name="body" value="/WEB-INF/tiles/body.jsp" />
+	</definition>
+
+	<definition name="home" extends="base">
+		<put-attribute name="title" value="Objects Properties" />
+		<put-attribute name="body" value="/WEB-INF/tiles/home.jsp" />
+	</definition>
+
+	<definition name="idea" extends="base">
+		<put-attribute name="title" value="Objects Properties" />
+		<put-attribute name="body" value="/WEB-INF/tiles/idea.jsp" />
+	</definition>
+
+	<definition name="idealayout" extends="base">
+		<put-attribute name="title" value="Objects Properties" />
+		<put-attribute name="body" value="/WEB-INF/tiles/idea/idealayout.jsp" />
+	</definition>
+	
+	<definition name="ideacustomize" extends="base">
+		<put-attribute name="title" value="Objects Properties" />
+		<put-attribute name="body" value="/WEB-INF/tiles/idea/ideacustomize.jsp" />
+	</definition>
+	
+	<definition name="ideaactions" extends="base">
+		<put-attribute name="title" value="Objects Properties" />
+		<put-attribute name="body" value="/WEB-INF/tiles/idea/customize/ideaactions.jsp" />
+	</definition>
+	
+	<definition name="ideaconditions" extends="base">
+		<put-attribute name="title" value="Objects Properties" />
+		<put-attribute name="body" value="/WEB-INF/tiles/idea/customize/ideaconditions.jsp" />
+	</definition>
+	
+	<definition name="ideadetails" extends="base">
+		<put-attribute name="title" value="Objects Properties" />
+		<put-attribute name="body" value="/WEB-INF/tiles/idea/customize/ideadetails.jsp" />
+	</definition>
+	
+	<definition name="ideagel" extends="base">
+		<put-attribute name="title" value="Objects Properties" />
+		<put-attribute name="body" value="/WEB-INF/tiles/idea/customize/ideagel.jsp" />
+	</definition>
+
+	<definition name="ideanotifications" extends="base">
+		<put-attribute name="title" value="Objects Properties" />
+		<put-attribute name="body" value="/WEB-INF/tiles/idea/customize/ideanotifications.jsp" />
+	</definition>
+	
+	<definition name="ideastart" extends="base">
+		<put-attribute name="title" value="Objects Properties" />
+		<put-attribute name="body" value="/WEB-INF/tiles/idea/customize/ideastart.jsp" />
+	</definition>
+	
+	<definition name="project" extends="base">
+		<put-attribute name="title" value="Objects Properties" />
+		<put-attribute name="body" value="/WEB-INF/tiles/project.jsp" />
+	</definition>
+
+	<definition name="projectlayout" extends="base">
+		<put-attribute name="title" value="Objects Properties" />
+		<put-attribute name="body" value="/WEB-INF/tiles/projectlayout.jsp" />
+	</definition>
+</tiles-definitions>
